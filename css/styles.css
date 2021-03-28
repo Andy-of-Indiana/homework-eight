@@ -23,3 +23,229 @@ p {
 .stress {
   font-weight: bold;
 }
+
+.logo {
+  width: 365px;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+.logo p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: white;
+}
+
+.head {
+  width: 100%;
+  height: 100px;
+  background: navy;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.head nav {
+  width: 450px;
+  margin-top: 35px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.head nav a {
+  text-decoration: none;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+
+.content {
+  width: 100%;
+  height: auto;
+}
+
+.bottom {
+  width: 100%;
+  height: 100px;
+  background: navy;
+  display: flex;
+  justify-content: space-between;
+}
+.bottom .footerInfo {
+  width: auto;
+  height: 20px;
+  margin-top: 55px;
+}
+.bottom .footerInfo p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: white;
+}
+.bottom .counterWeight {
+  width: 365px;
+  margin-right: 10px;
+}
+
+.home {
+  height: 445px;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/hero.jpg);
+}
+.home .homeContent {
+  text-align: center;
+  margin-top: 175px;
+}
+.home .homeContent h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: white;
+  margin-bottom: 30px;
+}
+.home .homeContent h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 22px;
+  color: white;
+}
+
+.about {
+  height: 445px;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+.about .aboutContent {
+  margin-top: 20px;
+}
+.about .aboutContent h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.about .aboutContent .aboutWords {
+  margin-left: 30px;
+  margin-right: 500px;
+}
+.about .aboutContent .aboutWords p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+.products {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: white;
+}
+.products .productsContent {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+.products .productsContent h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.products .productsContent p {
+  margin-left: 30px;
+  margin-right: 500px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: black;
+}
+.products .productsGallery {
+  height: 1500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  width: 75%;
+}
+.products .productsGallery .productsRow {
+  height: 350px;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.products .productsGallery .productsRow .productSection {
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+}
+.products .productsGallery .productsRow .productSection .productsImg {
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.products .productsGallery .productsRow .productSection .productsImg h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 27px;
+  color: white;
+  margin-top: 130px;
+  margin-bottom: 15px;
+}
+.products .productsGallery .productsRow .productSection .productsImg p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+.products .productsGallery .productsRow .productSection .img1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/Africa.jpg);
+}
+.products .productsGallery .productsRow .productSection .img1 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/Africa.jpg);
+}
+.products .productsGallery .productsRow .productSection .img2 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/Asia.jpg);
+}
+.products .productsGallery .productsRow .productSection .img3 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/Antarctica.jpg);
+}
+.products .productsGallery .productsRow .productSection .img4 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/Australia.jpg);
+}
+.products .productsGallery .productsRow .productSection .img5 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/NorthAmerica.jpg);
+}
+.products .productsGallery .productsRow .productSection .img6 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/Europe.jpg);
+}
+.products .productsGallery .productsRow .productSection .img7 {
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../assets/images/SouthAmerica.jpg);
+}
+
+.contact {
+  height: 445px;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+.contact .contactContent {
+  margin-top: 20px;
+}
+.contact .contactContent h1 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  color: black;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+.contact .contactContent p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: black;
+  margin-left: 30px;
+  margin-right: 500px;
+}
